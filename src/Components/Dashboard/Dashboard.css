@@ -1,0 +1,44 @@
+.dashboardCont {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.dashChartCont {
+    background-color: #fff;
+    border: 1px solid rgb(201, 195, 195);
+    border-radius: 5px;
+    position: relative;
+}
+.dashAdInsText {
+    padding: 15px;
+    /* color: rgb(145, 140, 140); */
+    border-bottom: 1px solid rgb(224, 220, 220);
+}
+.dashChartAdInsTextCont {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 220, 220);
+}
+.dashToggle {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.dashDonutIcon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(64, 152, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

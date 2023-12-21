@@ -1,8 +1,5 @@
 
 import './App.css';
-import TableChartOutlinedIcon from '@mui/icons-material/TableChartOutlined';
-import DonutLargeOutlinedIcon from '@mui/icons-material/DonutLargeOutlined';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Navbar from './Components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './Components/Dashboard/Dashboard';
