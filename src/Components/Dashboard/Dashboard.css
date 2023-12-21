@@ -25,20 +25,23 @@
 }
 .dashToggle {
     position: absolute;
-    right: 30px;
+    right: 20px;
     bottom: 20px;
     display: flex;
     align-items: center;
-    border: 1px solid red;
     border-radius: 20px;
     background-color: aliceblue;
+    cursor: pointer;
 }
 .dashDonutIcon {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: rgb(64, 152, 224);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.dashDonutIcon.active {
+    background-color: rgb(64, 152, 224);
+    color: white;
 }
