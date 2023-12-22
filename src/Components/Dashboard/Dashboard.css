@@ -45,3 +45,26 @@
     background-color: rgb(64, 152, 224);
     color: white;
 }
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 1200px) {
+    .dashboardCont {
+        display: block;
+    }
+    .dashChartCont {
+        height: 500px;
+    }
+    .dashChartCont {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .dashboardCont {
+        margin: 0;
+    }
+}

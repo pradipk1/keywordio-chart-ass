@@ -18,3 +18,21 @@
     text-decoration: none;
     color: dimgray;
 }
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 600px) {
+    .navAppLogo {
+        display: none;
+    }
+    .navLinkCont {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navLinkCont>a:first-child {
+        margin-right: 0;
+    }
+}

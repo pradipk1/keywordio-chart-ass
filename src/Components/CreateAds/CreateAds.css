@@ -19,10 +19,6 @@
 .createAdsSelectCont>div:first-child {
     margin-right: 50px;
 }
-.createAdsCheckbox {
-    position: absolute;
-    left: 10px;
-}
 .createAdsImgCont {
     text-align: center;
 }
@@ -35,4 +31,30 @@
 .createAdsBtnCont {
     text-align: end;
     margin-top: 100px;
+}
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 600px) {
+    .createAdsSelectCont {
+        flex-direction: column;
+        align-items: center;
+    }
+    .createAdsSelectCont>div:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .createAdsCont {
+        padding: 10px;
+        margin: 0;
+    }
+    .createAdsSelectCont>div {
+        width: 100%;
+    }
 }

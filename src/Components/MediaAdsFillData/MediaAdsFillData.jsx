@@ -25,8 +25,12 @@ function MediaAdsFillData() {
         
         <div className='headingDescCont'>
             <div>
-                <InputContainer label='Heading 01' placeholder='Add a heading that would make users interested'/>
-                <InputContainer label='Heading 02' placeholder='Add a heading that would make users interested'/>
+                <div className='headingInpCont'>
+                    <InputContainer label='Heading 01' placeholder='Add a heading that would make users interested'/>
+                </div>
+                <div className='headingInpCont'>
+                    <InputContainer label='Heading 02' placeholder='Add a heading that would make users interested'/>
+                </div>
             </div>
             <div>
                 <TextAreaContainer />
@@ -42,7 +46,9 @@ function MediaAdsFillData() {
         <InputContainer label='Video URL' placeholder='Add the URL of the video you want to use for the ad'/>
 
         <div className='businessNameBtnLabelCont'>
-            <InputContainer label='Business Name' placeholder='Add your business name'/>
+            <div className='businessInpCont'>
+                <InputContainer label='Business Name' placeholder='Add your business name'/>
+            </div>
             <SelectContainer />
         </div>
 

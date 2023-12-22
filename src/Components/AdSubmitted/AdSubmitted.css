@@ -8,3 +8,13 @@
 .adSubmittedCont>img {
     width: 100%;
 }
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 400px) {
+    .adSubmittedCont {
+        margin: 0;
+    }
+}

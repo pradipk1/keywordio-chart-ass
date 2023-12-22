@@ -44,3 +44,35 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+
+/* Media queries */
+
+
+@media screen and (max-width: 800px) {
+    .headingDescCont {
+        display: block;
+    }
+    .headingInpCont {
+        margin-bottom: 20px;
+    }
+    .businessNameBtnLabelCont {
+        display: block;
+    }
+    .businessInpCont {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .textAdsFillDataCont {
+        margin: 0;
+    }
+    .textAdsFillBtnCont>button:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .textAdsFillBtnCont {
+        flex-direction: column;
+    }
+}
