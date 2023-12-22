@@ -1,0 +1,15 @@
+.selectCont {
+    display: flex;
+    flex-direction: column;
+}
+.selectCont>label {
+    margin-bottom: 10px;
+}
+.selectCont>select {
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    -webkit-text-fill-color: rgb(177, 173, 173);
+}

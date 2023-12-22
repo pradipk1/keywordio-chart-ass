@@ -1,0 +1,17 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer>label {
+    margin-bottom: 10px;
+}
+.inputContainer>input {
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+}
+::placeholder {
+    color: rgb(177, 173, 173);
+}

@@ -1,0 +1,15 @@
+.textAreaCont {
+    display: flex;
+    flex-direction: column;
+}
+.textAreaCont>label {
+    margin-bottom: 10px;
+}
+.textAreaCont>textarea {
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+}

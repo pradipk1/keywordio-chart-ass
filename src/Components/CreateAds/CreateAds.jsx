@@ -4,14 +4,21 @@ import textadsimg from '../../Images/textadsimg.png'
 import mediaadsimg from '../../Images/mediaadsimg.png'
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
 
 function CreateAds() {
 
   const [textAdsChecked, setTextAdsChecked] = useState(false);
   const [mediaAdsChecked, setMediaAdsChecked] = useState(false);
+  const navigate = useNavigate();
 
   const handleNext = () => {
-    console.log('clicked');
+    if(mediaAdsChecked) {
+      navigate('/mediaads-filldata');
+    } else {
+      navigate('/textads-filldata');
+    }
+    
   }
 
   return (

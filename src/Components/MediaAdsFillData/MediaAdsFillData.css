@@ -1,0 +1,12 @@
+.mediaAdsImgCont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.businessNameBtnLabelCont {
+    margin-top: 20px;
+}
+.mediaAdsFillBtnCont {
+    margin-top: 20px;
+}
